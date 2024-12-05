@@ -2,7 +2,7 @@ name: Abhivarma Daily Commit
 
 on:
   schedule:
-    - cron: '* * * * *'  # Every day at midnight UTC to runs every 7-8 min set cron to '*/1 * * * *'
+    - cron: '0 9 * * *'  # Every day at midnight UTC to runs every 7-8 min set cron to '*/1 * * * *'
 
 jobs:
   commit:
